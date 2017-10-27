@@ -1,0 +1,219 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+body {
+	background: url(drugs.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+header h1 {
+	font-size: 70px;
+	text-align: center;
+	height: 100px;
+	margin-top: 0%;
+	padding-top: 5%;
+}
+
+.row{
+	width: 100%;
+	height: 700px;
+	margin: 15px;
+}
+
+.index {
+  height: auto;
+}
+
+.col-md-4{
+	margin-top: 30px;
+	float: left;
+	margin-right: 15px;
+	width: 30%;
+	margin-left: 10%;
+
+}
+.col-md-4 .content {
+	text-align: center;
+	background-color: #1F1A13;
+	width: 100%;
+	border-radius: 2em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #fff;
+	height: 250px;
+	position: relative;
+	margin-bottom: 20px;
+	opacity: 0.85;
+}
+.col-md-4 .content a {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.content h3 {
+	text-align: center;
+	font-weight: bold;
+}
+.content p {
+	font-size: 15px;
+	margin-top: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+.content .reserveerknop{
+	background-color: #BCBDBD;
+	border: none;
+	width: 200px;
+	height: 40px;
+	border-radius: 2em;
+	color: #19110A;
+	font-size: 16px;
+	position: relative;
+	cursor: pointer;
+}
+.page{
+	margin-left: 30px;
+}
+
+.content .reserveerknop:hover {
+	cursor: pointer;
+	background: white;
+	color: black;
+	display: block;
+}
+
+ a {
+ 	text-decoration: none;
+ }
+
+ /*--------------------Symptom searcher-------------------*/
+
+.headersymptom h1 {
+	font-size: 70px;
+	text-align: center;
+	height: 100px;
+	margin-top: 0%;
+	padding-top: 5%;
+	padding-bottom: 0%;
+}
+
+ .col-md-1{
+	margin-top: 30px;
+	float: left;
+	margin-right: 10%;
+	width: 80%;
+	margin-left: 7.5%;
+
+}
+.col-md-1 .content {
+	text-align: center;
+	background-color: #1F1A13;
+	width: 100%;
+	border-radius: 2em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #fff;
+	height: 90px;
+	position: relative;
+	margin-bottom: 20px;
+	opacity: 0.85;
+}
+.col-md-1 .content a {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.col-md-3{
+	margin-top: 30px;
+	float: left;
+	margin-right: 10%;
+	width: 80%;
+	margin-left: 7.5%;
+
+}
+.col-md-3 .content {
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	border-radius: 2em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: black;
+	height: 90px;
+	position: relative;
+	margin-bottom: 20px;
+	opacity: 0.85;
+}
+.col-md-3 .content a {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+ .col-md-2{
+	margin-top: 30px;
+	float: left;
+	margin-right: 5%;
+	width: 25%;
+	margin-left: 2.8%;
+
+}
+.col-md-2 .content {
+	text-align: center;
+	background-color: #1F1A13;
+	width: 100%;
+	border-radius: 2em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #fff;
+	height: 340px;
+	position: relative;
+	margin-bottom: 20px;
+	opacity: 0.85;
+}
+.col-md-2 .content a {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+#resultdiv {
+  overflow: auto;
+  height: 300px;
+}
+
+.buttondiv {
+  margin-right: 3.5%
+}
+
+.button {
+  margin: 0 auto;
+  height: 100px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  font-size: 25px;
+  display: block;
+}
+
+label {
+    display: block;
+}
